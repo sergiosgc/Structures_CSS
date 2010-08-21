@@ -1,0 +1,9 @@
+a
+{
+ cue-before: url("a.mp3");
+ cue-after: url("b.mp3")
+}
+b
+{
+ cue: inherit
+}

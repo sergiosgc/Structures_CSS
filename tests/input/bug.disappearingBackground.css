@@ -1,0 +1,11 @@
+#content,
+#header
+{
+ width: 975px
+}
+#headerimg
+{
+ width: 18px;
+ height: 63px;
+ background: transparent url("http://amadeo.blog.sergio/repository/44295/1557230.png") repeat scroll top left
+}

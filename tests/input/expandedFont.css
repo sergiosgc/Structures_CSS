@@ -1,0 +1,28 @@
+a
+{
+ font-style: italic;
+ font-variant: small-caps;
+ font-weight: bold;
+ font-size: 12px;
+ line-height: 2;
+ font-family: Arial,monospace
+}
+b
+{
+ font-size: 12px;
+ line-height: 2;
+ font-family: Arial,monospace
+}
+c
+{
+ font-style: italic;
+ font-variant: small-caps;
+ font-weight: bold;
+ font-size: 12px;
+ font-family: Arial,monospace
+}
+d
+{
+ font-size: 12px;
+ font-family: Arial,monospace
+}

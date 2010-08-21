@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.6.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Structures_CSS</name>
+ <channel>pear.sergiocarvalho.com</channel>
+ <summary>Data modelling classes for Cascading Style Sheets</summary>
+ <description>Structures_CSS provides an OO representation of Cascading Stylesheets, as defined by the W3C. Beyond storing data, Structures_CSS provides methods for manipulating the CSS while keeping the same functional result (merging/splitting selectors, removing redundant definitions, ...).</description>
+ <lead>
+  <name>Sergio Carvalho</name>
+  <user>sergiosgc</user>
+  <email>sergiosgc@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-03-06</date>
+ <time>20:48:37</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license/3_01.txt">PHP License 3.01</license>
+ <notes>* Initial version</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <dir name="docs">
+    <dir name="html">
+     <dir name="media">
+      <file name="banner.css" role="doc" />
+      <file name="stylesheet.css" role="doc" />
+     </dir> <!-- /docs/html/media -->
+     <dir name="Structures_CSS">
+      <file name="Structures_CSS.html" role="doc" />
+      <file name="Structures_CSS_Declaration.html" role="doc" />
+      <file name="Structures_CSS_DeclarationNotFoundException.html" role="doc" />
+      <file name="Structures_CSS_Declaration_Background.html" role="doc" />
+      <file name="Structures_CSS_Declaration_Border.html" role="doc" />
+      <file name="Structures_CSS_Declaration_BorderBottom.html" role="doc" />
+      <file name="Structures_CSS_Declaration_BorderColor.html" role="doc" />
+      <file name="Structures_CSS_Declaration_BorderLeft.html" role="doc" />
+      <file name="Structures_CSS_Declaration_BorderRight.html" role="doc" />
+      <file name="Structures_CSS_Declaration_BorderStyle.html" role="doc" />
+      <file name="Structures_CSS_Declaration_BorderTop.html" role="doc" />
+      <file name="Structures_CSS_Declaration_BorderWidth.html" role="doc" />
+      <file name="Structures_CSS_Declaration_BoxModel.html" role="doc" />
+      <file name="Structures_CSS_Declaration_Cue.html" role="doc" />
+      <file name="Structures_CSS_Declaration_Font.html" role="doc" />
+      <file name="Structures_CSS_Declaration_ListStyle.html" role="doc" />
+      <file name="Structures_CSS_Declaration_Margin.html" role="doc" />
+      <file name="Structures_CSS_Declaration_Outline.html" role="doc" />
+      <file name="Structures_CSS_Declaration_Padding.html" role="doc" />
+      <file name="Structures_CSS_Declaration_Pause.html" role="doc" />
+      <file name="Structures_CSS_Exception.html" role="doc" />
+      <file name="Structures_CSS_Iterator_Array.html" role="doc" />
+      <file name="Structures_CSS_Iterator_AtMediaRules.html" role="doc" />
+      <file name="Structures_CSS_Iterator_CSSRules.html" role="doc" />
+      <file name="Structures_CSS_Iterator_CSSValues.html" role="doc" />
+      <file name="Structures_CSS_Iterator_DeclarationValues.html" role="doc" />
+      <file name="Structures_CSS_Iterator_Recursive.html" role="doc" />
+      <file name="Structures_CSS_Iterator_RulesetDeclarations.html" role="doc" />
+      <file name="Structures_CSS_Rule.html" role="doc" />
+      <file name="Structures_CSS_Rule_AtImport.html" role="doc" />
+      <file name="Structures_CSS_Rule_AtMedia.html" role="doc" />
+      <file name="Structures_CSS_Rule_AtPage.html" role="doc" />
+      <file name="Structures_CSS_Rule_Set.html" role="doc" />
+      <file name="Structures_CSS_Selector.html" role="doc" />
+      <file name="Structures_CSS_Value.html" role="doc" />
+      <file name="Structures_CSS_Value_Color.html" role="doc" />
+      <file name="Structures_CSS_Value_Function.html" role="doc" />
+      <file name="Structures_CSS_Value_Generic.html" role="doc" />
+      <file name="Structures_CSS_Value_Numeric.html" role="doc" />
+      <file name="Structures_CSS_Value_Unit.html" role="doc" />
+      <file name="Structures_CSS_Value_URI.html" role="doc" />
+      <file name="_CSS---Declaration---Background.php.html" role="doc" />
+      <file name="_CSS---Declaration---Border.php.html" role="doc" />
+      <file name="_CSS---Declaration---BorderBottom.php.html" role="doc" />
+      <file name="_CSS---Declaration---BorderColor.php.html" role="doc" />
+      <file name="_CSS---Declaration---BorderLeft.php.html" role="doc" />
+      <file name="_CSS---Declaration---BorderRight.php.html" role="doc" />
+      <file name="_CSS---Declaration---BorderStyle.php.html" role="doc" />
+      <file name="_CSS---Declaration---BorderTop.php.html" role="doc" />
+      <file name="_CSS---Declaration---BorderWidth.php.html" role="doc" />
+      <file name="_CSS---Declaration---BoxModel.php.html" role="doc" />
+      <file name="_CSS---Declaration---Cue.php.html" role="doc" />
+      <file name="_CSS---Declaration---Font.php.html" role="doc" />
+      <file name="_CSS---Declaration---ListStyle.php.html" role="doc" />
+      <file name="_CSS---Declaration---Margin.php.html" role="doc" />
+      <file name="_CSS---Declaration---Outline.php.html" role="doc" />
+      <file name="_CSS---Declaration---Padding.php.html" role="doc" />
+      <file name="_CSS---Declaration---Pause.php.html" role="doc" />
+      <file name="_CSS---Declaration.php.html" role="doc" />
+      <file name="_CSS---Exception.php.html" role="doc" />
+      <file name="_CSS---Iterator---Array.php.html" role="doc" />
+      <file name="_CSS---Iterator---AtMediaRules.php.html" role="doc" />
+      <file name="_CSS---Iterator---CSSRules.php.html" role="doc" />
+      <file name="_CSS---Iterator---CSSValues.php.html" role="doc" />
+      <file name="_CSS---Iterator---DeclarationValues.php.html" role="doc" />
+      <file name="_CSS---Iterator---Recursive.php.html" role="doc" />
+      <file name="_CSS---Iterator---RulesetDeclarations.php.html" role="doc" />
+      <file name="_CSS---Rule---AtImport.php.html" role="doc" />
+      <file name="_CSS---Rule---AtMedia.php.html" role="doc" />
+      <file name="_CSS---Rule---AtPage.php.html" role="doc" />
+      <file name="_CSS---Rule---Set.php.html" role="doc" />
+      <file name="_CSS---Rule.php.html" role="doc" />
+      <file name="_CSS---Selector.php.html" role="doc" />
+      <file name="_CSS---Value---Color.php.html" role="doc" />
+      <file name="_CSS---Value---Function.php.html" role="doc" />
+      <file name="_CSS---Value---Generic.php.html" role="doc" />
+      <file name="_CSS---Value---Numeric.php.html" role="doc" />
+      <file name="_CSS---Value---Unit.php.html" role="doc" />
+      <file name="_CSS---Value---Uri.php.html" role="doc" />
+      <file name="_CSS---Value.php.html" role="doc" />
+      <file name="_CSS.php.html" role="doc" />
+     </dir> <!-- /docs/html/Structures_CSS -->
+     <file name="blank.html" role="doc" />
+     <file name="classtrees_Structures_CSS.html" role="doc" />
+     <file name="elementindex.html" role="doc" />
+     <file name="elementindex_Structures_CSS.html" role="doc" />
+     <file name="errors.html" role="doc" />
+     <file name="index.html" role="doc" />
+     <file name="li_Structures_CSS.html" role="doc" />
+     <file name="packages.html" role="doc" />
+    </dir> <!-- /docs/html -->
+    <file name="Makefile" role="doc" />
+   </dir> <!-- /docs -->
+   <dir name="Structures_CSS">
+    <dir name="Structures">
+     <dir name="CSS">
+      <dir name="Declaration">
+       <file name="Background.php" role="php" />
+       <file name="Border.php" role="php" />
+       <file name="BorderBottom.php" role="php" />
+       <file name="BorderColor.php" role="php" />
+       <file name="BorderLeft.php" role="php" />
+       <file name="BorderRight.php" role="php" />
+       <file name="BorderStyle.php" role="php" />
+       <file name="BorderTop.php" role="php" />
+       <file name="BorderWidth.php" role="php" />
+       <file name="BoxModel.php" role="php" />
+       <file name="Cue.php" role="php" />
+       <file name="Font.php" role="php" />
+       <file name="ListStyle.php" role="php" />
+       <file name="Margin.php" role="php" />
+       <file name="Outline.php" role="php" />
+       <file name="Padding.php" role="php" />
+       <file name="Pause.php" role="php" />
+      </dir> <!-- /Structures_CSS/Structures/CSS/Declaration -->
+      <dir name="Iterator">
+       <file name="Array.php" role="php" />
+       <file name="AtMediaRules.php" role="php" />
+       <file name="CSSRules.php" role="php" />
+       <file name="CSSValues.php" role="php" />
+       <file name="DeclarationValues.php" role="php" />
+       <file name="Recursive.php" role="php" />
+       <file name="RulesetDeclarations.php" role="php" />
+      </dir> <!-- /Structures_CSS/Structures/CSS/Iterator -->
+      <dir name="Rule">
+       <file name="AtImport.php" role="php" />
+       <file name="AtMedia.php" role="php" />
+       <file name="AtPage.php" role="php" />
+       <file name="Set.php" role="php" />
+      </dir> <!-- /Structures_CSS/Structures/CSS/Rule -->
+      <dir name="Value">
+       <file name="Color.php" role="php" />
+       <file name="Function.php" role="php" />
+       <file name="Generic.php" role="php" />
+       <file name="Numeric.php" role="php" />
+       <file name="Unit.php" role="php" />
+       <file name="Uri.php" role="php" />
+      </dir> <!-- /Structures_CSS/Structures/CSS/Value -->
+      <file name="Declaration.php" role="php" />
+      <file name="Exception.php" role="php" />
+      <file name="Rule.php" role="php" />
+      <file name="Selector.php" role="php" />
+      <file name="Value.php" role="php" />
+     </dir> <!-- /Structures_CSS/Structures/CSS -->
+     <file name="CSS.php" role="php" />
+    </dir> <!-- /Structures_CSS/Structures -->
+   </dir> <!-- /Structures_CSS -->
+   <dir name="tests">
+    <dir name="include">
+     <file name="parse.php" role="test" />
+    </dir> <!-- /tests/include -->
+    <dir name="input">
+     <file name="blog.com.css" role="test" />
+     <file name="bug.borderLeftExpandsToBorderTop.css" role="test" />
+     <file name="bug.borderShorthandInvalidRPN.css" role="test" />
+     <file name="bug.borderWidthWontExpand.css" role="test" />
+     <file name="bug.borderWontExpand.css" role="test" />
+     <file name="bug.disappearingBackground.css" role="test" />
+     <file name="bug.disappearingFont.css" role="test" />
+     <file name="bug.emptyRulesetsShouldBeDiscarded.css" role="test" />
+     <file name="bug.incompleteFontFamily.css" role="test" />
+     <file name="bug.normalizeShouldMergeDeclarations.css" role="test" />
+     <file name="expandedBackground.css" role="test" />
+     <file name="expandedBorder.css" role="test" />
+     <file name="expandedBoxModel.css" role="test" />
+     <file name="expandedCue.css" role="test" />
+     <file name="expandedFont.css" role="test" />
+     <file name="expandedListStyle.css" role="test" />
+     <file name="expandedMargin.css" role="test" />
+     <file name="expandedOutline.css" role="test" />
+     <file name="expandedPadding.css" role="test" />
+     <file name="filter.css" role="test" />
+     <file name="important.css" role="test" />
+     <file name="namedColor.css" role="test" />
+     <file name="shorthandBackground.css" role="test" />
+     <file name="shorthandBorder.css" role="test" />
+     <file name="shorthandCue.css" role="test" />
+     <file name="shorthandFont.css" role="test" />
+     <file name="shorthandListStyle.css" role="test" />
+     <file name="shorthandMargin.css" role="test" />
+     <file name="shorthandOutline.css" role="test" />
+     <file name="shorthandPadding.css" role="test" />
+    </dir> <!-- /tests/input -->
+    <file name="bug-borderLeftExpandsToBorderTop.phpt" role="test" />
+    <file name="bug-borderShorthandInvalidRPN.phpt" role="test" />
+    <file name="bug-borderWidthWontExpand.phpt" role="test" />
+    <file name="bug-borderWontExpand.phpt" role="test" />
+    <file name="bug-disappearingBackground.phpt" role="test" />
+    <file name="bug-disappearingFont.phpt" role="test" />
+    <file name="bug-emptyRulesetsShouldBeDiscarded.phpt" role="test" />
+    <file name="bug-filter.phpt" role="test" />
+    <file name="bug-incompleteFontFamily.phpt" role="test" />
+    <file name="bug-normalizeShouldMergeDeclarations.phpt" role="test" />
+    <file name="collapse-background.phpt" role="test" />
+    <file name="collapse-border.phpt" role="test" />
+    <file name="collapse-boxmodel.phpt" role="test" />
+    <file name="collapse-cue.phpt" role="test" />
+    <file name="collapse-font.phpt" role="test" />
+    <file name="collapse-listStyle.phpt" role="test" />
+    <file name="collapse-margin.phpt" role="test" />
+    <file name="collapse-outline.phpt" role="test" />
+    <file name="collapse-padding.phpt" role="test" />
+    <file name="createTestCaseWithThis" role="test" />
+    <file name="expand-background.phpt" role="test" />
+    <file name="expand-border-deep.phpt" role="test" />
+    <file name="expand-border-shallow.phpt" role="test" />
+    <file name="expand-cue.phpt" role="test" />
+    <file name="expand-font.phpt" role="test" />
+    <file name="expand-listStyle.phpt" role="test" />
+    <file name="expand-margin.phpt" role="test" />
+    <file name="expand-outline.phpt" role="test" />
+    <file name="expand-padding.phpt" role="test" />
+    <file name="important-mergerulesets.phpt" role="test" />
+    <file name="log" role="test" />
+    <file name="Makefile" role="test" />
+    <file name="normalize.phpt" role="test" />
+    <file name="parse.phpt" role="test" />
+    <file name="sortBySpecificity.phpt" role="test" />
+   </dir> <!-- /tests -->
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.5.4</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2008-03-06</date>
+   <license uri="http://www.php.net/license/3_01.txt">PHP License 3.01</license>
+   <notes>* Initial version</notes>
+  </release>
+ </changelog>
+</package>

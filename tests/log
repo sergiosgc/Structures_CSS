@@ -1,0 +1,55 @@
+Running 1 tests
+here.paginator-pages-nextborder
+object  ->Structures_CSS_Value_Unit
+object  ->Structures_CSS_Value_Generic
+string  ->
+string  ->
+string  ->
+object  ->Structures_CSS_Value_Generic
+string  ->
+string  ->
+string  ->
+object  ->Structures_CSS_Value_Generic
+string  ->
+object  ->Structures_CSS_Value_Generic
+string  ->
+string  ->
+string  ->
+object  ->Structures_CSS_Value_Generic
+string  ->
+string  ->
+string  ->
+object  ->Structures_CSS_Value_Color
+string  ->
+object  ->Structures_CSS_Value_Generic
+string  ->
+string  ->
+string  ->
+object  ->Structures_CSS_Value_Generic
+string  ->
+string  ->
+string  ->
+
+Fatal error: Call to a member function __toString() on a non-object in /home/sergio/Projects/Personal/Software/Structures_CSS/Structures_CSS/Structures/CSS/Declaration.php on line 265
+
+Call Stack:
+    0.0004      66344   1. {main}() /home/sergio/Projects/Personal/Software/Structures_CSS/tests/normalize.php:0
+   21.5727    4746604   2. Structures_CSS->__toString() /home/sergio/Projects/Personal/Software/Structures_CSS/tests/normalize.php:8
+   21.5953    4770456   3. Structures_CSS_Rule_Set->getDeclarationsAsString() /home/sergio/Projects/Personal/Software/Structures_CSS/Structures_CSS/Structures/CSS.php:160
+   21.5956    4770456   4. Structures_CSS_Declaration->__toString() /home/sergio/Projects/Personal/Software/Structures_CSS/Structures_CSS/Structures/CSS/Rule/Set.php:163
+
+Dump $_SERVER
+Dump $_GET
+Dump $_POST
+Dump $_COOKIE
+Dump $_FILES
+Dump $_ENV
+Dump $_SESSION
+Dump $_REQUEST
+FAIL Normalize large CSS[normalize.phpt]
+wrote log to "/home/sergio/Projects/Personal/Software/Structures_CSS/tests/run-tests.log"
+TOTAL TIME: 00:21
+0 PASSED TESTS
+0 SKIPPED TESTS
+1 FAILED TESTS:
+normalize.phpt

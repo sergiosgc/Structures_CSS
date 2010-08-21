@@ -1,0 +1,11 @@
+a
+{
+ background-color: rgb(255, 0, 0);
+ background-image: url("/image.png");
+ background-repeat: repeat;
+ background-attachment: scroll
+}
+b
+{
+ background-repeat: inherit
+}

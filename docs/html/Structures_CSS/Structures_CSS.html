@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Structures_CSS</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Structures_CSS</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+                <p class="implements">
+            Implements interfaces:
+            <ul>
+                <li>IteratorAggregate (internal interface)</li>            </ul>
+        </p>
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">A representation of a Cascading Style Sheet</p>
+		<p class="notes">
+			Located in <a class="field" href="_CSS.php.html">/CSS.php</a> (line <span class="field">11</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$_baseuri" title="details" class="var-name">$_baseuri</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$_charset" title="details" class="var-name">$_charset</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$_combineRules" title="details" class="var-name">$_combineRules</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$_rules" title="details" class="var-name">$_rules</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																																																																																																																				
+												<div class="method-definition">
+											<span class="method-result">Structures_CSS</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">&$rules</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$charset</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#addRule" title="details" class="method-name">addRule</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">&$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#addRulesFromArray" title="details" class="method-name">addRulesFromArray</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">&$values</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#collapseBoxModelValues" title="details" class="method-name">collapseBoxModelValues</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#collapseShorthand" title="details" class="method-name">collapseShorthand</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#expandBoxModelValues" title="details" class="method-name">expandBoxModelValues</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#expandShorthand" title="details" class="method-name">expandShorthand</a>
+											([<span class="var-type">boolean</span>&nbsp;<span class="var-name">$deep</span> = <span class="var-default">true</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getBaseuri" title="details" class="method-name">getBaseuri</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getCharset" title="details" class="method-name">getCharset</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#getCombineRules" title="details" class="method-name">getCombineRules</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">Iterator</span>
+										<a href="#getIterator" title="details" class="method-name">getIterator</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getRule" title="details" class="method-name">&amp;getRule</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$i</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getRules" title="details" class="method-name">&amp;getRules</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string|null</span>
+										<a href="#getRulesetBySelector" title="details" class="method-name">getRulesetBySelector</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selector</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../Structures_CSS/Structures_CSS_Value.html">Structures_CSS_Value</a></span>
+										<a href="#getValue" title="details" class="method-name">getValue</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selector</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$property</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$default</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getValues" title="details" class="method-name">getValues</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selector</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$property</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#mergeRulesets" title="details" class="method-name">mergeRulesets</a>
+											([<span class="var-type">boolean</span>&nbsp;<span class="var-name">$consecutive</span> = <span class="var-default">true</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#normalize" title="details" class="method-name">normalize</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#removeRedundantDeclarations" title="details" class="method-name">removeRedundantDeclarations</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setBaseuri" title="details" class="method-name">setBaseuri</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setCharset" title="details" class="method-name">setCharset</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setCombineRules" title="details" class="method-name">setCombineRules</a>
+											(<span class="var-type">boolean</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setRules" title="details" class="method-name">setRules</a>
+											(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#sortBySpecificity" title="details" class="method-name">sortBySpecificity</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#subtract" title="details" class="method-name">subtract</a>
+											(<span class="var-type"><a href="../Structures_CSS/Structures_CSS.html">Structures_CSS</a></span>&nbsp;<span class="var-name">$css</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_mergeConsecutiveRulesets" title="details" class="method-name">_mergeConsecutiveRulesets</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#_mergeNonconsecutiveRulesets" title="details" class="method-name">_mergeNonconsecutiveRulesets</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#__toString" title="details" class="method-name">__toString</a>
+										()
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$_baseuri" id="$_baseuri"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$_baseuri</span>
+						(line <span class="line-number">108</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Base URI for the CSS, used when converting URIs from relative to absolute</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$_charset" id="$_charset"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$_charset</span>
+						(line <span class="line-number">86</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Character set of this CSS, if defined by @charset</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$_combineRules" id="$_combineRules"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$_combineRules</span>
+			 = <span class="var-default"> true</span>			(line <span class="line-number">18</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Flag that affects transformation to string. If true, consecutive rulesets differring in selector only, are combined</p>
+<p class="description"><p>into one rule with , operatores between the selectors</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$_rules" id="$_rules"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$_rules</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">40</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">List of Structure_CSS_Rule instances that define this CSS</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">134</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Constructor</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Structures_CSS</span>
+		<span class="method-name">
+			__construct
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">&$rules</span> = <span class="var-default">null</span>], [<span class="var-type"></span>&nbsp;<span class="var-name">$charset</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$rules</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$charset</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodaddRule" id="addRule"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">addRule</span> (line <span class="line-number">69</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Add a new element to the Rules array.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			addRule
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">&$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">&$value</span><span class="var-description">: New value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodaddRulesFromArray" id="addRulesFromArray"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">addRulesFromArray</span> (line <span class="line-number">79</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Add new elements to the Rules array.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			addRulesFromArray
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">&$values</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">&$values</span><span class="var-description">: New value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcollapseBoxModelValues" id="collapseBoxModelValues"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">collapseBoxModelValues</span> (line <span class="line-number">347</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Collapse box model values in as few values as possible</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			collapseBoxModelValues
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodcollapseShorthand" id="collapseShorthand"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">collapseShorthand</span> (line <span class="line-number">330</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Collapse single properties in one shorthand property</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> True iff colapsing ocurred</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			collapseShorthand
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodexpandBoxModelValues" id="expandBoxModelValues"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">expandBoxModelValues</span> (line <span class="line-number">382</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Collapse box model values in as few values as possible</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			expandBoxModelValues
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodexpandShorthand" id="expandShorthand"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">expandShorthand</span> (line <span class="line-number">311</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">For shorthand properties, like border or font, replaces the CSS declarations with  non-shorthand equivalent properties</p>
+<p class="description"><p>Some shorthand properties resolve onto other shorthand properties. For example:   border: 1px;  resolves into:   border-width: 1px;  By default, this method performs a /deep/ replacement, so that:   border: 1px;  resolves into:   border-top-width: 1px;   border-right-width: 1px;   border-bottom-width: 1px;   border-left-width: 1px;  If you wish a shallow replacement, pass false as the first paramenter</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> True if a replacement has ocurred, false otherwise</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			expandShorthand
+		</span>
+					([<span class="var-type">boolean</span>&nbsp;<span class="var-name">$deep</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$deep</span><span class="var-description">: Perform a deep replacement? Defaults to true</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetBaseuri" id="getBaseuri"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getBaseuri</span> (line <span class="line-number">114</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Baseuri Getter</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Base URI</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getBaseuri
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetCharset" id="getCharset"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCharset</span> (line <span class="line-number">92</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Charset Getter</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Character set encoding</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getCharset
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetCombineRules" id="getCombineRules"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCombineRules</span> (line <span class="line-number">24</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">CombineRules Getter</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> True if identical rules should be combined</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			getCombineRules
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetIterator" id="getIterator"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getIterator</span> (line <span class="line-number">191</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return an Iterator for the CSS rules</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> an Iterator for the CSS rules.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Iterator</span>
+		<span class="method-name">
+			getIterator
+		</span>
+				()
+			</div>
+	
+		
+				<hr class="separator" />
+		<div class="notes">Implementation of:</div>
+			<dl>
+			<dt>IteratorAggregate::getIterator</dt>
+					</dl>
+			
+	</div>
+<a name="methodgetRule" id="getRule"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRule</span> (line <span class="line-number">50</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			&amp;getRule
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$i</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$i</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetRules" id="getRules"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRules</span> (line <span class="line-number">46</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Rules Getter</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Rules current value</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			&amp;getRules
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetRulesetBySelector" id="getRulesetBySelector"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getRulesetBySelector</span> (line <span class="line-number">424</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get a ruleset given its selector</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> The ruleset if it exists, null otherwise</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string|null</span>
+		<span class="method-name">
+			getRulesetBySelector
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selector</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selector</span><span class="var-description">: selector</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetValue" id="getValue"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getValue</span> (line <span class="line-number">509</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get a value from a property that has only one value</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> The value, null if not found</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../Structures_CSS/Structures_CSS_Value.html">Structures_CSS_Value</a></span>
+		<span class="method-name">
+			getValue
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selector</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$property</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$default</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selector</span><span class="var-description">: Selector</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$property</span><span class="var-description">: Property name</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$default</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetValues" id="getValues"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getValues</span> (line <span class="line-number">489</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get a value from the CSS, given the ruleset selector and property name</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array of values from the property. Null if not found</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getValues
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selector</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$property</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selector</span><span class="var-description">: Selector</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$property</span><span class="var-description">: Property name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodmergeRulesets" id="mergeRulesets"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">mergeRulesets</span> (line <span class="line-number">259</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Search rulesets with the same selector, and merge them</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			mergeRulesets
+		</span>
+					([<span class="var-type">boolean</span>&nbsp;<span class="var-name">$consecutive</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$consecutive</span><span class="var-description">: True iff only consecutive rulesets should be merged. Note that if this parameter is false, the operation may functionally change the CSS</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodnormalize" id="normalize"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">normalize</span> (line <span class="line-number">405</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Rearrange the CSS to a standard layout.</p>
+<p class="description"><p>The resulting CSS will be: <ul><li>Sorted by specificity</li><li>Using shorthand notation whenever possible</li><li>Without duplicate property definitions</li></ul></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			normalize
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodremoveRedundantDeclarations" id="removeRedundantDeclarations"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">removeRedundantDeclarations</span> (line <span class="line-number">367</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Remove redundant declarations on every ruleset.</p>
+<p class="description"><p>A declaration is redundant whenever it is redefined in the same ruleset</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			removeRedundantDeclarations
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodsetBaseuri" id="setBaseuri"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setBaseuri</span> (line <span class="line-number">123</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Baseuri Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setBaseuri
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: New base URI</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetCharset" id="setCharset"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setCharset</span> (line <span class="line-number">101</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Charset Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setCharset
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: Character set encoding</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetCombineRules" id="setCombineRules"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setCombineRules</span> (line <span class="line-number">33</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">CombineRules Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setCombineRules
+		</span>
+					(<span class="var-type">boolean</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$value</span><span class="var-description">: New combinerules value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetRules" id="setRules"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setRules</span> (line <span class="line-number">59</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Rules Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setRules
+		</span>
+					(<span class="var-type">array</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">array</span>
+				<span class="var-name">$value</span><span class="var-description">: Rules new value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsortBySpecificity" id="sortBySpecificity"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">sortBySpecificity</span> (line <span class="line-number">268</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sort rulesets by specificity</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			sortBySpecificity
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodsubtract" id="subtract"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">subtract</span> (line <span class="line-number">449</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Remove from this CSS all declarations and rulesets that have identical values in the argument CSS</p>
+<p class="description"><p>This method gurantees that this CSS describes only the additions to the argument CSS, and does not  repeat any information already defined in the argument CSS.</p><p>Please note that this method changes the argument CSS. Functionally, the CSS will remain the same,  but the rulesets will become ordered by specificity and will be merged wherever possible. Shorthand  notation will be collapsed before returning.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			subtract
+		</span>
+					(<span class="var-type"><a href="../Structures_CSS/Structures_CSS.html">Structures_CSS</a></span>&nbsp;<span class="var-name">$css</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../Structures_CSS/Structures_CSS.html">Structures_CSS</a></span>
+				<span class="var-name">$css</span><span class="var-description">: The base CSS</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method_mergeConsecutiveRulesets" id="_mergeConsecutiveRulesets"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">_mergeConsecutiveRulesets</span> (line <span class="line-number">202</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Search consecutive rulesets with the same selector, and merge them</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_mergeConsecutiveRulesets
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method_mergeNonconsecutiveRulesets" id="_mergeNonconsecutiveRulesets"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">_mergeNonconsecutiveRulesets</span> (line <span class="line-number">225</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Search for rulesets with the same selector, and merge them</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			_mergeNonconsecutiveRulesets
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="method__toString" id="__toString"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">__toString</span> (line <span class="line-number">148</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Generate text representation</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> CSS text</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			__toString
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sat, 08 Sep 2007 13:15:36 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.3.0</a>
+	</p>
+	</div></body>
+</html>
